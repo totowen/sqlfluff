@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_no_order_by_rand/plugin_default_config.cfg

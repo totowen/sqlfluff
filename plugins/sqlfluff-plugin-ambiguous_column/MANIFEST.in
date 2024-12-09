@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_ambiguous_column/plugin_default_config.cfg

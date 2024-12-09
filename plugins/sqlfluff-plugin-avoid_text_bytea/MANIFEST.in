@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_avoid_text_bytea/plugin_default_config.cfg

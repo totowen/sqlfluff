@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_no_like_prefix_wildcard/plugin_default_config.cfg

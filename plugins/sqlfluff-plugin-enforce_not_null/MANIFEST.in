@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_enforce_not_null/plugin_default_config.cfg
