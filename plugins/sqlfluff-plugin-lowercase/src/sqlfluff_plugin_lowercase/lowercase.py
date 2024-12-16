@@ -12,7 +12,7 @@ from sqlfluff.core.rules.crawlers import SegmentSeekerCrawler
 
 class Rule_Green_L001(BaseRule):
     """检查SQL标识符的命名规范.
-    
+
     规则:
     1. 标识符应该使用小写字母
     2. 多个单词之间使用下划线分隔
@@ -43,7 +43,7 @@ class Rule_Green_L001(BaseRule):
         # 如果已经包含下划线，只进行大小写转换
         if '_' in name:
             return name.lower()
-            
+
         # 处理特殊字符
         normalized = re.sub(r'[^\w.]', '_', name)
         # 处理驼峰命名
@@ -98,7 +98,7 @@ class Rule_Green_L001(BaseRule):
             any(c.isupper() for c in raw_identifier) or
             any(c for c in raw_identifier if not c.isalnum() and c not in ['_', '.'])
         )
-        
+
         if not needs_conversion:
             return None
 
@@ -107,13 +107,13 @@ class Rule_Green_L001(BaseRule):
             return None
 
         fixed_segment = self.create_fixed_segment(identifier_segment, suggested_name)
-        
+
         changes = []
         if any(c.isupper() for c in raw_identifier):
             changes.append("小写")
         if any(c for c in raw_identifier if not c.isalnum() and c not in ['_', '.']):
             changes.append("下划线分隔")
-        
+
         return LintResult(
             anchor=identifier_segment,
             description=(

@@ -9,15 +9,6 @@ from sqlfluff.core.config import load_config_resource
 from sqlfluff.core.plugin import hookimpl
 from sqlfluff.core.rules import BaseRule
 
-# For backward compatibility we still support importing
-# rules within the body of the root plugin module. This is included
-# here for illustration, but also such that support for this import
-# order can be tested in the test suite (and that the associated
-# warning is triggered).
-# See note below in `get_rules()` for more details.
-# i.e. we DO NOT recommend importing here:
-from sqlfluff_plugin_namelength.namelength import Rule_Green_L002  # noqa: F401
-
 
 @hookimpl
 def get_rules() -> List[Type[BaseRule]]:
