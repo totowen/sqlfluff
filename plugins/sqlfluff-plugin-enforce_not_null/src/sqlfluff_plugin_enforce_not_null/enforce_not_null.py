@@ -78,12 +78,12 @@ class Rule_Green_L014(BaseRule):
 
     def _eval(self, context: RuleContext):
         """评估字段定义."""
-        # 打印当前 segment 的类型
-        print(f"当前 segment 类型: {context.segment.type}")
+        # # 打印当前 segment 的类型
+        # print(f"当前 segment 类型: {context.segment.type}")
 
-        # 打印所有子 segment 的类型和名称
-        for seg in context.segment.segments:
-            print(f"子 segment 类型: {seg.type}, 名称: {seg.raw if hasattr(seg, 'raw') else '无'}")
+        # # 打印所有子 segment 的类型和名称
+        # for seg in context.segment.segments:
+        #     print(f"子 segment 类型: {seg.type}, 名称: {seg.raw if hasattr(seg, 'raw') else '无'}")
         
         lint_results = []
         
