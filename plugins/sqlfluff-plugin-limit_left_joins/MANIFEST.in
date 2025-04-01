@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_limit_left_joins/plugin_default_config.cfg

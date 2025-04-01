@@ -1,0 +1,1 @@
+include src/sqlfluff_plugin_avoid_groupby_deduplicate/plugin_default_config.cfg

@@ -1,0 +1,17 @@
+sqlfluff-plugin-ambiguous_column==1.0.0
+sqlfluff-plugin-avoid_count_star==1.0.0        
+sqlfluff-plugin-avoid_text_bytea==1.0.0        
+sqlfluff-plugin-enforce_not_null==1.0.0        
+sqlfluff-plugin-enum_set==1.0.0                
+sqlfluff-plugin-index_varchar_length==1.0.0    
+sqlfluff-plugin-lowercase==1.0.0               
+sqlfluff-plugin-namelength==1.0.0              
+sqlfluff-plugin-nest==1.0.0                    
+sqlfluff-plugin-no_like_prefix_wildcard==1.0.0 
+sqlfluff-plugin-no_order_by_rand==1.0.0        
+sqlfluff-plugin-precision==1.0.0               
+sqlfluff-plugin-prefer_timestamp==1.0.0        
+sqlfluff-plugin-update_delete_limit==1.0.0
+sqlfluff-plugin-restrict_full_join==1.0.0
+sqlfluff-plugin-limit_left_joins==1.0.0
+sqlfluff-plugin-avoid_groupby_deduplicate==1.0.0

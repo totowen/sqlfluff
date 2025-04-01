@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Change this name in your plugin, e.g. company name or plugin purpose.
+name = "sqlfluff-plugin-avoid_groupby_deduplicate"
+version = "1.0.0"
+requires-python = ">=3.8"
+dependencies = [
+    "sqlfluff>=0.4.0"
+]
+
+[project.entry-points.sqlfluff]
+# Change this name in your plugin, e.g. company name or plugin purpose.
+sqlfluff_avoid_groupby_deduplicate = "sqlfluff_plugin_avoid_groupby_deduplicate"

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Change this name in your plugin, e.g. company name or plugin purpose.
+name = "sqlfluff-plugin-restrict_full_join"
+version = "1.0.0"
+requires-python = ">=3.8"
+dependencies = [
+    "sqlfluff>=0.4.0"
+]
+
+[project.entry-points.sqlfluff]
+# Change this name in your plugin, e.g. company name or plugin purpose.
+sqlfluff_restrict_full_join = "sqlfluff_plugin_restrict_full_join"

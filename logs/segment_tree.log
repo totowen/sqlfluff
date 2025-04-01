@@ -1,0 +1,184 @@
+2025-04-01 13:46:42,110 - INFO - 
+=== Segment Tree Structure ===
+2025-04-01 13:46:42,111 - INFO - ============================
+
+2025-04-01 13:56:06,845 - INFO - 
+=== Segment Tree Structure ===
+2025-04-01 13:56:06,868 - INFO - ├── join_clause: FULL JOIN customers ON orders.id = customers.order_id
+2025-04-01 13:56:06,924 - INFO -     ├── keyword: FULL
+2025-04-01 13:56:06,945 - INFO -     ├── whitespace:  
+2025-04-01 13:56:06,948 - INFO -     ├── keyword: JOIN
+2025-04-01 13:56:06,950 - INFO -     ├── indent: 
+2025-04-01 13:56:06,952 - INFO -     ├── whitespace:  
+2025-04-01 13:56:06,954 - INFO -     ├── from_expression_element: customers
+2025-04-01 13:56:06,956 - INFO -         ├── table_expression: customers
+2025-04-01 13:56:06,960 - INFO -             ├── table_reference: customers
+2025-04-01 13:56:06,961 - INFO -                 ├── identifier: customers
+2025-04-01 13:56:06,962 - INFO -     ├── whitespace:  
+2025-04-01 13:56:06,963 - INFO -     ├── dedent: 
+2025-04-01 13:56:06,964 - INFO -     ├── indent: 
+2025-04-01 13:56:06,965 - INFO -     ├── join_on_condition: ON orders.id = customers.order_id
+2025-04-01 13:56:06,967 - INFO -         ├── keyword: ON
+2025-04-01 13:56:06,968 - INFO -         ├── indent: 
+2025-04-01 13:56:06,969 - INFO -         ├── whitespace:  
+2025-04-01 13:56:06,970 - INFO -         ├── expression: orders.id = customers.order_id
+2025-04-01 13:56:06,971 - INFO -             ├── column_reference: orders.id
+2025-04-01 13:56:06,972 - INFO -                 ├── identifier: orders
+2025-04-01 13:56:06,973 - INFO -                 ├── symbol: .
+2025-04-01 13:56:06,974 - INFO -                 ├── identifier: id
+2025-04-01 13:56:06,976 - INFO -             ├── whitespace:  
+2025-04-01 13:56:06,977 - INFO -             ├── comparison_operator: =
+2025-04-01 13:56:06,978 - INFO -                 ├── symbol: =
+2025-04-01 13:56:06,979 - INFO -             ├── whitespace:  
+2025-04-01 13:56:06,980 - INFO -             ├── column_reference: customers.order_id
+2025-04-01 13:56:06,982 - INFO -                 ├── identifier: customers
+2025-04-01 13:56:06,983 - INFO -                 ├── symbol: .
+2025-04-01 13:56:06,984 - INFO -                 ├── identifier: order_id
+2025-04-01 13:56:06,985 - INFO -         ├── dedent: 
+2025-04-01 13:56:06,986 - INFO -     ├── dedent: 
+2025-04-01 13:56:06,987 - INFO - ============================
+
+2025-04-01 14:08:11,463 - INFO - 
+=== Segment Tree Structure ===
+2025-04-01 14:08:11,464 - INFO - ├── join_clause: FULL JOIN customers ON orders.id = customers.order_id
+2025-04-01 14:08:11,465 - INFO -     ├── keyword: FULL
+2025-04-01 14:08:11,466 - INFO -     ├── whitespace:  
+2025-04-01 14:08:11,467 - INFO -     ├── keyword: JOIN
+2025-04-01 14:08:11,467 - INFO -     ├── indent: 
+2025-04-01 14:08:11,468 - INFO -     ├── whitespace:  
+2025-04-01 14:08:11,469 - INFO -     ├── from_expression_element: customers
+2025-04-01 14:08:11,470 - INFO -         ├── table_expression: customers
+2025-04-01 14:08:11,471 - INFO -             ├── table_reference: customers
+2025-04-01 14:08:11,472 - INFO -                 ├── identifier: customers
+2025-04-01 14:08:11,473 - INFO -     ├── whitespace:  
+2025-04-01 14:08:11,473 - INFO -     ├── dedent: 
+2025-04-01 14:08:11,474 - INFO -     ├── indent: 
+2025-04-01 14:08:11,475 - INFO -     ├── join_on_condition: ON orders.id = customers.order_id
+2025-04-01 14:08:11,475 - INFO -         ├── keyword: ON
+2025-04-01 14:08:11,476 - INFO -         ├── indent: 
+2025-04-01 14:08:11,477 - INFO -         ├── whitespace:  
+2025-04-01 14:08:11,477 - INFO -         ├── expression: orders.id = customers.order_id
+2025-04-01 14:08:11,478 - INFO -             ├── column_reference: orders.id
+2025-04-01 14:08:11,479 - INFO -                 ├── identifier: orders
+2025-04-01 14:08:11,480 - INFO -                 ├── symbol: .
+2025-04-01 14:08:11,480 - INFO -                 ├── identifier: id
+2025-04-01 14:08:11,481 - INFO -             ├── whitespace:  
+2025-04-01 14:08:11,482 - INFO -             ├── comparison_operator: =
+2025-04-01 14:08:11,482 - INFO -                 ├── symbol: =
+2025-04-01 14:08:11,483 - INFO -             ├── whitespace:  
+2025-04-01 14:08:11,484 - INFO -             ├── column_reference: customers.order_id
+2025-04-01 14:08:11,485 - INFO -                 ├── identifier: customers
+2025-04-01 14:08:11,486 - INFO -                 ├── symbol: .
+2025-04-01 14:08:11,486 - INFO -                 ├── identifier: order_id
+2025-04-01 14:08:11,487 - INFO -         ├── dedent: 
+2025-04-01 14:08:11,488 - INFO -     ├── dedent: 
+2025-04-01 14:08:11,489 - INFO - ============================
+
+2025-04-01 14:15:30,815 - INFO - 
+=== Segment Tree Structure ===
+2025-04-01 14:15:30,816 - INFO - ├── join_clause: FULL JOIN customers ON orders.id = customers.order_id
+2025-04-01 14:15:30,820 - INFO -     ├── keyword: FULL
+2025-04-01 14:15:30,822 - INFO -     ├── whitespace:  
+2025-04-01 14:15:30,824 - INFO -     ├── keyword: JOIN
+2025-04-01 14:15:30,826 - INFO -     ├── indent: 
+2025-04-01 14:15:30,827 - INFO -     ├── whitespace:  
+2025-04-01 14:15:30,829 - INFO -     ├── from_expression_element: customers
+2025-04-01 14:15:30,830 - INFO -         ├── table_expression: customers
+2025-04-01 14:15:30,832 - INFO -             ├── table_reference: customers
+2025-04-01 14:15:30,833 - INFO -                 ├── identifier: customers
+2025-04-01 14:15:30,835 - INFO -     ├── whitespace:  
+2025-04-01 14:15:30,836 - INFO -     ├── dedent: 
+2025-04-01 14:15:30,838 - INFO -     ├── indent: 
+2025-04-01 14:15:30,839 - INFO -     ├── join_on_condition: ON orders.id = customers.order_id
+2025-04-01 14:15:30,841 - INFO -         ├── keyword: ON
+2025-04-01 14:15:30,842 - INFO -         ├── indent: 
+2025-04-01 14:15:30,843 - INFO -         ├── whitespace:  
+2025-04-01 14:15:30,844 - INFO -         ├── expression: orders.id = customers.order_id
+2025-04-01 14:15:30,845 - INFO -             ├── column_reference: orders.id
+2025-04-01 14:15:30,846 - INFO -                 ├── identifier: orders
+2025-04-01 14:15:30,847 - INFO -                 ├── symbol: .
+2025-04-01 14:15:30,849 - INFO -                 ├── identifier: id
+2025-04-01 14:15:30,857 - INFO -             ├── whitespace:  
+2025-04-01 14:15:30,858 - INFO -             ├── comparison_operator: =
+2025-04-01 14:15:30,860 - INFO -                 ├── symbol: =
+2025-04-01 14:15:30,863 - INFO -             ├── whitespace:  
+2025-04-01 14:15:30,865 - INFO -             ├── column_reference: customers.order_id
+2025-04-01 14:15:30,866 - INFO -                 ├── identifier: customers
+2025-04-01 14:15:30,868 - INFO -                 ├── symbol: .
+2025-04-01 14:15:30,870 - INFO -                 ├── identifier: order_id
+2025-04-01 14:15:30,872 - INFO -         ├── dedent: 
+2025-04-01 14:15:30,873 - INFO -     ├── dedent: 
+2025-04-01 14:15:30,874 - INFO - ============================
+
+2025-04-01 14:15:53,750 - INFO - 
+=== Segment Tree Structure ===
+2025-04-01 14:15:53,752 - INFO - ├── join_clause: FULL JOIN customers ON orders.id = customers.order_id
+2025-04-01 14:15:53,753 - INFO -     ├── keyword: FULL
+2025-04-01 14:15:53,754 - INFO -     ├── whitespace:  
+2025-04-01 14:15:53,755 - INFO -     ├── keyword: JOIN
+2025-04-01 14:15:53,756 - INFO -     ├── indent: 
+2025-04-01 14:15:53,757 - INFO -     ├── whitespace:  
+2025-04-01 14:15:53,758 - INFO -     ├── from_expression_element: customers
+2025-04-01 14:15:53,759 - INFO -         ├── table_expression: customers
+2025-04-01 14:15:53,760 - INFO -             ├── table_reference: customers
+2025-04-01 14:15:53,761 - INFO -                 ├── identifier: customers
+2025-04-01 14:15:53,762 - INFO -     ├── whitespace:  
+2025-04-01 14:15:53,763 - INFO -     ├── dedent: 
+2025-04-01 14:15:53,764 - INFO -     ├── indent: 
+2025-04-01 14:15:53,765 - INFO -     ├── join_on_condition: ON orders.id = customers.order_id
+2025-04-01 14:15:53,766 - INFO -         ├── keyword: ON
+2025-04-01 14:15:53,767 - INFO -         ├── indent: 
+2025-04-01 14:15:53,767 - INFO -         ├── whitespace:  
+2025-04-01 14:15:53,768 - INFO -         ├── expression: orders.id = customers.order_id
+2025-04-01 14:15:53,769 - INFO -             ├── column_reference: orders.id
+2025-04-01 14:15:53,770 - INFO -                 ├── identifier: orders
+2025-04-01 14:15:53,771 - INFO -                 ├── symbol: .
+2025-04-01 14:15:53,772 - INFO -                 ├── identifier: id
+2025-04-01 14:15:53,773 - INFO -             ├── whitespace:  
+2025-04-01 14:15:53,773 - INFO -             ├── comparison_operator: =
+2025-04-01 14:15:53,774 - INFO -                 ├── symbol: =
+2025-04-01 14:15:53,775 - INFO -             ├── whitespace:  
+2025-04-01 14:15:53,776 - INFO -             ├── column_reference: customers.order_id
+2025-04-01 14:15:53,778 - INFO -                 ├── identifier: customers
+2025-04-01 14:15:53,779 - INFO -                 ├── symbol: .
+2025-04-01 14:15:53,780 - INFO -                 ├── identifier: order_id
+2025-04-01 14:15:53,781 - INFO -         ├── dedent: 
+2025-04-01 14:15:53,781 - INFO -     ├── dedent: 
+2025-04-01 14:15:53,782 - INFO - ============================
+
+2025-04-01 14:16:04,636 - INFO - 
+=== Segment Tree Structure ===
+2025-04-01 14:16:04,715 - INFO - ├── join_clause: FULL JOIN customers ON orders.id = customers.order_id
+2025-04-01 14:16:04,773 - INFO -     ├── keyword: FULL
+2025-04-01 14:16:04,810 - INFO -     ├── whitespace:  
+2025-04-01 14:16:04,850 - INFO -     ├── keyword: JOIN
+2025-04-01 14:16:04,888 - INFO -     ├── indent: 
+2025-04-01 14:16:04,894 - INFO -     ├── whitespace:  
+2025-04-01 14:16:04,896 - INFO -     ├── from_expression_element: customers
+2025-04-01 14:16:04,902 - INFO -         ├── table_expression: customers
+2025-04-01 14:16:04,903 - INFO -             ├── table_reference: customers
+2025-04-01 14:16:04,907 - INFO -                 ├── identifier: customers
+2025-04-01 14:16:04,910 - INFO -     ├── whitespace:  
+2025-04-01 14:16:04,915 - INFO -     ├── dedent: 
+2025-04-01 14:16:04,919 - INFO -     ├── indent: 
+2025-04-01 14:16:04,923 - INFO -     ├── join_on_condition: ON orders.id = customers.order_id
+2025-04-01 14:16:04,925 - INFO -         ├── keyword: ON
+2025-04-01 14:16:04,930 - INFO -         ├── indent: 
+2025-04-01 14:16:04,931 - INFO -         ├── whitespace:  
+2025-04-01 14:16:04,935 - INFO -         ├── expression: orders.id = customers.order_id
+2025-04-01 14:16:04,940 - INFO -             ├── column_reference: orders.id
+2025-04-01 14:16:04,944 - INFO -                 ├── identifier: orders
+2025-04-01 14:16:04,947 - INFO -                 ├── symbol: .
+2025-04-01 14:16:04,950 - INFO -                 ├── identifier: id
+2025-04-01 14:16:04,953 - INFO -             ├── whitespace:  
+2025-04-01 14:16:04,956 - INFO -             ├── comparison_operator: =
+2025-04-01 14:16:04,958 - INFO -                 ├── symbol: =
+2025-04-01 14:16:04,959 - INFO -             ├── whitespace:  
+2025-04-01 14:16:04,961 - INFO -             ├── column_reference: customers.order_id
+2025-04-01 14:16:04,964 - INFO -                 ├── identifier: customers
+2025-04-01 14:16:04,972 - INFO -                 ├── symbol: .
+2025-04-01 14:16:04,975 - INFO -                 ├── identifier: order_id
+2025-04-01 14:16:04,977 - INFO -         ├── dedent: 
+2025-04-01 14:16:04,979 - INFO -     ├── dedent: 
+2025-04-01 14:16:04,981 - INFO - ============================
+
